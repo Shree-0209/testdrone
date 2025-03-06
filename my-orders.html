@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders - Kitchen Drone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Kitchen Drone</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="my-orders.html">My Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-light ms-2" id="cartBtn">
+                            <i data-feather="shopping-cart"></i> Cart <span id="cartCount" class="badge bg-danger">0</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5">
+        <h1 class="text-center mb-4">My Order History</h1>
+
+        <div id="ordersList">
+            <!-- Orders will be loaded dynamically -->
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="btn-close" id="closeCartBtn"></button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-footer">
+            <div class="d-flex justify-content-between mb-2">
+                <span>Subtotal:</span>
+                <span id="cartSubtotal">₹0.00</span>
+            </div>
+            <div class="d-flex justify-content-between mb-3">
+                <strong>Total:</strong>
+                <strong id="cartTotal">₹0.00</strong>
+            </div>
+            <button class="btn btn-primary w-100" id="checkoutBtn">Proceed to Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Kitchen Drone</h5>
+                    <p>Bringing the future of food delivery to your doorstep.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="menu.html" class="text-white">Menu</a></li>
+                        <li><a href="my-orders.html" class="text-white">My Orders</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact</h5>
+                    <address>
+                        123 Drone Ave<br>
+                        Kitchen City, 590006<br>
+                        <a href="tel:+919876543210" class="text-white">+91 9876543210</a>
+                    </address>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <p>&copy; 2024 Kitchen Drone. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+    <script src="script.js"></script>
+    <script src="orders.js"></script>
+</body>
+</html>
