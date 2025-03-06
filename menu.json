@@ -1,0 +1,109 @@
+
+{
+  "categories": [
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "id": "1",
+          "name": "Paneer Tikka",
+          "description": "Grilled cottage cheese marinated in spices",
+          "price": 199,
+          "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8"
+        },
+        {
+          "id": "2",
+          "name": "Veg Spring Roll",
+          "description": "Crispy rolls filled with mixed vegetables",
+          "price": 149,
+          "image": "https://images.unsplash.com/photo-1606491956689-2ea866880c84"
+        },
+        {
+          "id": "3",
+          "name": "Chicken Tikka",
+          "description": "Tender chicken pieces marinated in yogurt and spices",
+          "price": 249,
+          "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0"
+        }
+      ]
+    },
+    {
+      "name": "Main Course",
+      "items": [
+        {
+          "id": "4",
+          "name": "Butter Chicken",
+          "description": "Tender chicken in rich tomato butter gravy",
+          "price": 299,
+          "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398"
+        },
+        {
+          "id": "5",
+          "name": "Dal Makhani",
+          "description": "Creamy black lentils cooked overnight",
+          "price": 249,
+          "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d"
+        },
+        {
+          "id": "6",
+          "name": "Paneer Butter Masala",
+          "description": "Cottage cheese cubes in a rich tomato gravy",
+          "price": 279,
+          "image": "https://images.unsplash.com/photo-1631292784640-5bf05fbffa56"
+        },
+        {
+          "id": "7",
+          "name": "Chicken Biryani",
+          "description": "Fragrant basmati rice cooked with chicken and spices",
+          "price": 349,
+          "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0"
+        }
+      ]
+    },
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "id": "8",
+          "name": "Butter Naan",
+          "description": "Soft tandoor-baked bread with butter",
+          "price": 49,
+          "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be"
+        },
+        {
+          "id": "9",
+          "name": "Garlic Roti",
+          "description": "Whole wheat bread with garlic",
+          "price": 39,
+          "image": "https://images.unsplash.com/photo-1631515242808-499c2c9f6a49"
+        },
+        {
+          "id": "10",
+          "name": "Kulcha",
+          "description": "Leavened bread with a stuffing of potatoes",
+          "price": 59,
+          "image": "https://images.unsplash.com/photo-1633945274429-80715a926aef"
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "id": "11",
+          "name": "Gulab Jamun",
+          "description": "Deep-fried milk solid balls soaked in sugar syrup",
+          "price": 99,
+          "image": "https://images.unsplash.com/photo-1589125333137-8232a9577a7c"
+        },
+        {
+          "id": "12",
+          "name": "Rasmalai",
+          "description": "Soft cottage cheese dumplings in sweetened milk",
+          "price": 129,
+          "image": "https://images.unsplash.com/photo-1601234604226-0ad48f54a0b1"
+        }
+      ]
+    }
+  ]
+}
